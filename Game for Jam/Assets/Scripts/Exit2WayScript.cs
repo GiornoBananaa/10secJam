@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 
 public class Exit2WayScript : MonoBehaviour
@@ -10,7 +11,8 @@ public class Exit2WayScript : MonoBehaviour
 		if (other.gameObject.CompareTag("Player"))
 		{
 			Time.timeScale = 0;
-			Debug.Log("pause");
+			SceneManager.LoadScene("Main Menu");
+
 		}
 	}
 }
