@@ -12,6 +12,7 @@ public class DeathUIscript : MonoBehaviour
     }
     public void NoButton()
     {
+        Destroy(GameObject.FindGameObjectWithTag("Music"));
         SceneManager.LoadScene("Main Menu");
     }
 }

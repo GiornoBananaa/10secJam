@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Murderer
+  - Music
+  - MusicButton
   layers:
   - Default
   - TransparentFX
